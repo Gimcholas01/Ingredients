@@ -318,3 +318,157 @@ a {
     background-color: white;
     color:#5D5A88;
 }
+
+/* section 6 */
+
+.section-6 .top-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 5.556vw;
+    padding-inline: 5.833vw;
+    align-items: center;
+    border-bottom: solid #D6D6D6;
+}
+
+.section-6 .top-nav .left h2 {
+    color: #2E2B26;
+    font-size: 1.389vw;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -0.28px;
+}
+
+.section-6 .top-nav .right {
+    display: flex;
+    align-items: center;
+    column-gap: 2.292vw;
+}
+
+.section-6 .top-nav .right a {
+    color: #2E2B26;
+    font-size: 1.111vw;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.section-6 .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10.069vw;
+    height: 27.847vw;
+}
+
+.section-6 .title h1 {
+    margin-top: 0vw;
+    color: #2E2B26;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -1.44px;
+}
+
+.section-6 .title {
+    width: 45.833vw;
+}
+
+.section-6 .description p {
+    color: #2E2B26;
+    font-size: 1.111vw;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1.667vw;
+}
+
+.section-6 .description {
+    width: 25vw;
+}
+
+.section-6 .description a {
+    color: #2E2B26;
+    font-size: 0.972vw;
+    font-weight: 400;
+    line-height: 1.42;
+    padding-inline: 3.472vw;
+    padding-block: 0.694vw;
+    border: solid #D6D6D6;
+}
+
+/* section 7 */
+
+.section-7 {
+    position: relative;
+}
+
+.section-7 .bg {
+    position: absolute;
+    width: 100vw;
+    height: 58.056vw;
+    top: 0;
+    right: 0;
+    z-index: -100;
+}
+
+.section-7 .bg * {
+    width: 100vw;
+}
+
+.section-7 .top-nav {
+    padding-block: 2.778vw;
+    display: flex;
+    gap: 2.222vw;
+    justify-content: center;
+}
+
+.section-7 .top-nav a {
+    color: #2E2B26;
+    font-size: 1.111vw;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.section-7 .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-7 .wrapper .story-teller {
+    margin-top: 10.972vw;
+    margin-bottom: 0vw;
+    color: #2E2B26;
+    font-size: 1.389vw;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -0.28px;
+}
+
+.section-7 .wrapper .title {
+    margin-top: 1.25vw;
+    margin-bottom: 3.333vw;
+    color: #2E2B26;
+    font-size: 3.75vw;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -1.08px;
+}
+
+.section-7 .search-section {
+    display: flex;
+    align-items: center;
+    gap: 1.111vw;
+    height: 3.333vw;
+}
+
+.section-7 .search-section input {
+    height: 100%;
+    width: 26.806vw;
+}
+
+.section-7 .search-section a {
+    display: flex;
+    align-items: center;
+    padding-inline: 4.167vw;
+    height: 100%;
+    border: 1px solid #C3C2C1;
+    background: #F0F0F0;
+}
