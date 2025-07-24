@@ -1,3 +1,7 @@
+* {
+    font-family: "Inter Tight";
+}
+
 /* section 1 */
 
 .section-1 .wrapper {
@@ -23,14 +27,12 @@
     letter-spacing: -0.8px;
     line-height: 1.2;
     font-weight: 700;
-    font-family: "Inter Tight";
     font-size: 2.778vw;
 }
 
 .section-1 .wrapper .description p {
     font-size: 1.25vw;
     color: #2E2B26;
-    font-family: "Inter Tight";
     font-weight: 400;
     line-height: 1.44;
 }
@@ -65,7 +67,6 @@
 .section-2 .wrapper .tagline {
     margin-bottom: 1.389vw;
     color: #8298AB;
-    font-family: "Inter Tight";
     font-size: 0.903vw;
     font-weight: 500;
     line-height: 1.53
@@ -77,7 +78,6 @@
     margin-bottom: 1.736vw;
     color: #304659;
     text-align: center;
-    font-family: "Inter Tight";
     font-size: 2.431vw;
     font-style: normal;
     font-weight: 700;
@@ -87,7 +87,6 @@
 .section-2 .wrapper .description {
     color: #3B5266;
     text-align: center;
-    font-family: "Inter Tight";
     font-size: 1.181vw;
     font-style: normal;
     font-weight: 400;
@@ -110,7 +109,6 @@
 }
 
 .section-3 .wrapper .heading {
-    font-family: "Inter Tight";
     font-size: 2.778vw;
     font-weight: 700;
     line-height: 1.2
@@ -140,7 +138,6 @@
 
 .section-3 .content-grid .grid-individual .grid-title {
     margin-bottom: 0.556vw;
-    font-family: "Inter Tight";
     font-size: 1.389vw;
     font-weight: 700;
     line-height: 1.4
@@ -148,8 +145,62 @@
 }
 
 .section-3 .content-grid .grid-individual .grid-description {
-    font-family: "Inter Tight";
     font-size: 1.111vw;
     font-weight: 400;
     line-height: 1.5
+}
+
+.section-4 .title-section {
+    margin-left: 9.722vw;
+    margin-right: 13.681vw;
+    margin-bottom: 8.472vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-4 .title-section h2 {
+    width: 31.944vw;
+    color: #2E2B26;
+    font-size: 2.778vw;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+}
+
+.section-4 .title-section p {
+    width: 31.944vw;
+    color: #2E2B26;
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.44;
+}
+
+.section-4 .data-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1.111vw;
+    margin-inline: 5.833vw;
+    margin-bottom: 14.167vw;
+}
+
+.section-4 .data-section div {
+    border-top: solid;
+    width: 21.25vw;
+}
+
+.section-4 .data-section h2 {
+    margin-top: 1.25vw;
+    margin-bottom: 1.111vw;
+    color: #2E2B26;
+    font-size: 2.778vw;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+}
+
+.section-4 .data-section p {
+    color: #848484;
+    font-size: 1.111vw;
+    font-weight: 400;
+    line-height: 1.5;
 }
