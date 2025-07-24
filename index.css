@@ -1,0 +1,155 @@
+/* section 1 */
+
+.section-1 .wrapper {
+    display: flex;
+    height: fit-content;
+    padding-top: 7.222vw;
+    padding-left: 9.375vw;
+    padding-right: 7.847vw;
+    padding-bottom: 6.944vw;
+    justify-content: space-between;
+}
+
+.section-1 .wrapper .heading {
+    width: 31.9vw;
+}
+
+.section-1 .wrapper .description {
+    width: 31.528vw;
+}
+
+.section-1 .wrapper .heading h1 {
+    color: #2E2B26;
+    letter-spacing: -0.8px;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: "Inter Tight";
+    font-size: 2.778vw;
+}
+
+.section-1 .wrapper .description p {
+    font-size: 1.25vw;
+    color: #2E2B26;
+    font-family: "Inter Tight";
+    font-weight: 400;
+    line-height: 1.44;
+}
+
+.section-1 .wrapper .description p:first-child {
+    margin-top: 0vw;
+}
+
+.section-1 .wrapper .description p:last-child {
+    margin-bottom: 0vw;
+}
+
+/* section 2 */
+
+.section-2 {
+    height: fit-content;
+    margin-inline: 30.694vw;
+    margin-block: 5vw;
+}
+
+.section-2 .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* reset all margin (dont want it to fk with me) */
+.section-2 .wrapper * {
+    margin: 0vw;
+}
+
+.section-2 .wrapper .tagline {
+    margin-bottom: 1.389vw;
+    color: #8298AB;
+    font-family: "Inter Tight";
+    font-size: 0.903vw;
+    font-weight: 500;
+    line-height: 1.53
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.section-2 .wrapper .heading {
+    margin-bottom: 1.736vw;
+    color: #304659;
+    text-align: center;
+    font-family: "Inter Tight";
+    font-size: 2.431vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.14
+}
+
+.section-2 .wrapper .description {
+    color: #3B5266;
+    text-align: center;
+    font-family: "Inter Tight";
+    font-size: 1.181vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.47
+}
+
+/* section 3 */
+
+.section-3 {
+    margin-bottom: 3vw;
+}
+
+.section-3 .wrapper {
+    margin-block: 6.944vw;
+    margin-inline: 6.25vw;
+}
+
+.section-3 .wrapper .heading {
+    margin-bottom: 4.722vw;
+}
+
+.section-3 .wrapper .heading {
+    font-family: "Inter Tight";
+    font-size: 2.778vw;
+    font-weight: 700;
+    line-height: 1.2
+    letter-spacing: -0.8px;
+}
+
+.section-3 .wrapper .content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 4.444vw;
+}
+
+.section-3 .content-grid .grid-individual * {
+    margin: 0vw;
+}
+
+.section-3 .content-grid .grid-individual {
+    width: 28.681vw;
+    height: 11.667vw;
+}
+
+.section-3 .content-grid .grid-individual img {
+    width: 4.167vw;
+    height: 4.167vw;
+    margin-bottom: 1.389vw;
+}
+
+.section-3 .content-grid .grid-individual .grid-title {
+    margin-bottom: 0.556vw;
+    font-family: "Inter Tight";
+    font-size: 1.389vw;
+    font-weight: 700;
+    line-height: 1.4
+    letter-spacing: -0.28px;
+}
+
+.section-3 .content-grid .grid-individual .grid-description {
+    font-family: "Inter Tight";
+    font-size: 1.111vw;
+    font-weight: 400;
+    line-height: 1.5
+}
