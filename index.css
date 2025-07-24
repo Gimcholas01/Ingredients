@@ -2,6 +2,10 @@
     font-family: "Inter Tight";
 }
 
+a {
+    text-decoration: none;
+}
+
 /* section 1 */
 
 .section-1 .wrapper {
@@ -203,4 +207,50 @@
     font-size: 1.111vw;
     font-weight: 400;
     line-height: 1.5;
+}
+
+/* section 5 */
+
+.section-5 .top-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 8.125vw;
+    padding-inline: 5.833vw;
+    align-items: center;
+}
+
+.section-5 .right {
+    display: flex;
+    align-items: center;
+    column-gap: 2.292vw;
+}
+
+.section-5 .right select,
+.section-5 .right a {
+    color: #000;
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.section-5 .right select {
+    outline: none;
+    border: 0vw;
+    background-color: unset;
+}
+
+.section-5 .get-started-button,
+.section-5 .login-button {
+    padding-inline: 1.667vw;
+    padding-block: 1.667vw;
+    border-radius: 2.083vw;
+}
+
+.section-5 .login-button {
+    border: 0.069vw solid #D2D2D2;
+}
+
+.section-5 .get-started-button {
+    background-color: black;
+    color: white !important;
 }
