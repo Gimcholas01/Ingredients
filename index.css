@@ -648,3 +648,10 @@ a {
     align-items: center;
     padding-block: 4.861vw;
 }
+
+.footer-2 h3 {
+    font-family: "Inter Tight";
+    font-size: 1.389vw;
+    font-weight: 700;
+    line-height: 1;
+}
